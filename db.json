@@ -1,16 +1,56 @@
 {
-  "posts":[
+  "posts": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2
+    },
+    {
+      "title": "new post",
+      "author": "daniel",
+      "id": 3
+    },
+    {
+      "title": "nuevo post",
+      "author": "otra persona",
+      "id": 4
     }
   ],
-  "comments" : [
+  "comments": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "café",
+      "price": 15
+    },
+    {
+      "id": 2,
+      "name": "pan",
+      "price": 32
+    }
+  ],
+  "meseros": [
+    {
+      "id": 1,
+      "nombre": "Daniel",
+      "turno": "vespertino"
+    },
+    {
+      "nombre": "Carlos",
+      "turno": "nocturno",
+      "id": 2
     }
   ]
 }
